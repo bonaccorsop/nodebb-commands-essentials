@@ -1,0 +1,24 @@
+{
+	"id": "nodebb-plugin-commands-essentials",
+	"url": "https://github.com/bonaccorsop/nodebb-plugin-commands-essentials",
+
+	"library": "./index.js",
+
+	"hooks": [
+		{ "hook": "static:app.load", "method": "init"	}
+	],
+
+	"commandNamespace": "essentials",
+	"commands": [
+		{
+			"cmd": "test",
+			"method": "test",
+			"description": "Hello world command",
+
+			"options": [
+				{ "flags": "-p, --prova", "description": "Parametro di prova" }
+			]
+		}
+	]
+
+}

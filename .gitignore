@@ -1,0 +1,28 @@
+nodebb.cwd.js
+
+# OS
+.DS_Store
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# NodeJS environment
+node_modules
+npm-debug.log
+
+# NodeBB configuration files
+config.json
+
+# Docker
+docker-compose.yml
+
+# IDEs
+.vscode
+.eslintcache
+.idea
+
+newrelic_agent.log
+ms-response-time.txt
+___*.*
